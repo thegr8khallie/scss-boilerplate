@@ -1,0 +1,3 @@
+//This is where purely Sass related stuff are imported. Things like Variables and mixins that do not appear in your css, If you use Sass functions or Maps, you want them to be in this folder. In turn this helper.scss file should be imported wherever you want to use these mixins.
+@forward './variables';
+@forward './mixins';
